@@ -67,7 +67,7 @@ divBookmark.addEventListener("click", function () {
     iconBookmark.classList.add("icon__bookmarked")
     divBookmark.classList.add("div__bookmarked")
     bookmark_p.classList.add("bookmarked__p")
-   path.style.backgraundColor = "#fff";
+   path.style.fill = "#fff";
     bookmark_p.innerHTML = "Bookmarked"
 })
 
