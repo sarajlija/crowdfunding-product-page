@@ -30,7 +30,7 @@ h1 {
 
 
 #nav-desktop {
-    position: fixed;
+    position: absolute;
     display:flex;
     align-items: center;
     justify-content: space-between;
