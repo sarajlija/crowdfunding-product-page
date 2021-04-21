@@ -26,6 +26,7 @@ let outputSmallBlackEd = document.getElementById('num-black__span');
 const divBookmark = document.querySelector(".div__bookmark");
 const iconBookmark = document.querySelector(".icon__bookmark");
 const bookmark_p = document.querySelector(".bookmark__p");
+const path = documentgetElementById("path");
 //const closeMenu = document.querySelector(".close__menu");
 //const navMobile = document.querySelector(".nav-mobile");
 //const mobileHam = document.querySelector(".mobile__ham");
@@ -66,6 +67,7 @@ divBookmark.addEventListener("click", function () {
     iconBookmark.classList.add("icon__bookmarked")
     divBookmark.classList.add("div__bookmarked")
     bookmark_p.classList.add("bookmarked__p")
+   path.style.backgraundColor = "#fff";
     bookmark_p.innerHTML = "Bookmarked"
 })
 
