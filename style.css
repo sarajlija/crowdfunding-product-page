@@ -374,18 +374,17 @@ h1 {
         z-index: 1;
         /*filter: brightness(60%);*/
         opacity: 1;
-       
         align-items: center;
         flex-direction: column;
         /*background-color: #fff;*/
-
-    }
-     .div__number__black {
-        font-weight: 700;
-    }
-     .div__number__bambo {
+     }
+       #num-bambo__span {
        font-weight: 700;
-   }
+     }
+     #num-black__span {
+      font-weight: 700;
+    }
+   
     .div__modal  {
         font-size: 1rem;
         padding: 25px;
