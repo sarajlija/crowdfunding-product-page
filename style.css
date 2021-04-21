@@ -350,6 +350,7 @@ h1 {
         background-color: rgb(177, 177, 177);
         color: #fff;
     }
+  
 
 /*MODAL */
 
@@ -379,7 +380,12 @@ h1 {
         /*background-color: #fff;*/
 
     }
-
+     .div__number__black {
+        font-weight: 700;
+    }
+     .div__number__bambo {
+       font-weight: 700;
+   }
     .div__modal  {
         font-size: 1rem;
         padding: 25px;
