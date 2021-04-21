@@ -144,6 +144,7 @@ h1 {
 }
 .bookmark__p {
     margin-top:16px;
+  padding-left: 6px;
 }
 
 .bookmarked__p {
