@@ -91,7 +91,7 @@ h1 {
     width: 100%;
     background-color: #fff;
     margin-bottom: 25px;
-    border-radius: 5px;
+    border-radius: 8px;
    }
 
 .icon__mastercraft {
@@ -172,7 +172,7 @@ h1 {
     width: 100%;
     background-color: #fff;
     margin-bottom: 25px;
-    border-radius: 5px;
+    border-radius: 8px;
    }
 .wrapper__stats {
     display: grid;
@@ -243,7 +243,7 @@ h1 {
         /*top:30rem;
          position: absolute;*/
      background-color: #fff;
-     border-radius: 5px;
+     border-radius: 8px;
     }
 
 .div__about {
