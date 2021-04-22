@@ -95,8 +95,6 @@ function myBambo() {
     card_success.style.display = "none";
     pledgeBlackEdition.style.display = "none";
     main.style.filter = "brightness(60%)";
-    divNumberBambo.style.bottom = "4.3rem" 
-    divNumberBlack.style.bottom = "0rem"
 }
 function myModalBlack() {
     blacEditionChecked.checked = true;
@@ -108,9 +106,7 @@ function myModalBlack() {
     pledge_bambo.style.display = "none";
     card_success.style.display = "none";
     main.style.filter = "brightness(60%)";
-    divNumberBambo.style.bottom = "0rem";
-    divNumberBlack.style.bottom = "4.3rem"
-    
+      
 }
 
 function myStart() {
