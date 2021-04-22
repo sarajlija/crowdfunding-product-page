@@ -8,6 +8,7 @@ const body = document.querySelector("body");
 const image_close = document.querySelector(".image__close");
 const card_success = document.querySelector(".card-success");
 const pledge_bambo = document.querySelector(".pledge__bambo");
+const pledgeGreen = document.querySelector(".pledge__green");
 const pledgeBlackEdition = document.querySelector(".pledge-black__edition");
 const divNumberBambo = document.querySelector(".div__number__bambo");
 const divNumberBlack = document.querySelector(".div__number__black");
@@ -90,10 +91,11 @@ function myBambo() {
     modal.style.display = "flex";
     div_modal.style.margin = "10% auto"
     pledge_bambo.style.display = "block";
+    pledgeGreen.style.color ="green";
     card_success.style.display = "none";
     pledgeBlackEdition.style.display = "none";
     main.style.filter = "brightness(60%)";
-    divNumberBambo.style.bottom = "4.1rem" 
+    divNumberBambo.style.bottom = "4.3rem" 
     divNumberBlack.style.bottom = "0rem"
 }
 function myModalBlack() {
@@ -102,11 +104,12 @@ function myModalBlack() {
     modal.style.display = "flex";
     div_modal.style.margin = "10% auto";
     pledgeBlackEdition.style.display = "block";
+    pledgeGreen.style.color = "green";
     pledge_bambo.style.display = "none";
     card_success.style.display = "none";
     main.style.filter = "brightness(60%)";
     divNumberBambo.style.bottom = "0rem";
-    divNumberBlack.style.bottom = "4.1rem"
+    divNumberBlack.style.bottom = "4.3rem"
     
 }
 
