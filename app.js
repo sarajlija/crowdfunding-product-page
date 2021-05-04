@@ -120,7 +120,8 @@ function myStart() {
 
 
 
-continueBambo.addEventListener("click", function () {
+continueBambo.addEventListener("click", function (e) {
+   e.preventDefault();
     let a = document.getElementById("pledge-bambo").value;
     if (a >= 25 && a <= 75) {
         card_success.style.display = "flex";
@@ -145,7 +146,8 @@ continueBambo.addEventListener("click", function () {
 })
 
 
-continueBlackEdition.addEventListener("click", function() {
+continueBlackEdition.addEventListener("click", function(e) {
+   e.preventDefault();
   let b = document.getElementById("pledge-black__edition").value; 
     if (b >= 75 && b <= 200) {
         card_success.style.display = "flex";
@@ -172,6 +174,7 @@ continueBlackEdition.addEventListener("click", function() {
 })
 
 function gotIt() {
+   preventDefault();
     card_success.style.display = "none";
     div_modal.style.display = "none";
     main.style.filter = "brightness(100%)";
