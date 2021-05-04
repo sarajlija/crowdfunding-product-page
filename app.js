@@ -72,7 +72,8 @@ divBookmark.addEventListener("click", function () {
     bookmark_p.innerHTML = "Bookmarked"
 })
 
-div_back.addEventListener("click", function() {
+div_back.addEventListener("click", function(e) {
+   e.preventDefault();
     modal.style.display = "flex";
     div_modal.style.display ="grid";
     main.style.filter = "brightness(60%)";
