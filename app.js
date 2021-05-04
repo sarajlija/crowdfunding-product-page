@@ -174,8 +174,7 @@ continueBlackEdition.addEventListener("click", function(e) {
 })
 
 function gotIt() {
-   preventDefault();
-    card_success.style.display = "none";
+      card_success.style.display = "none";
     div_modal.style.display = "none";
     main.style.filter = "brightness(100%)";
     modal.style.display = "none";
